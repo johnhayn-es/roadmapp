@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 const openai = new OpenAIAPI({
-    apiKey: process.env.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, // Set your API key in environment variables for security
+    apiKey: process.env., // Set your API key in environment variables for security
 });
 
 app.post('/generate-response', async (req, res) => {
